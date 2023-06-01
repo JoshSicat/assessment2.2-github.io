@@ -1,0 +1,111 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(255, 255, 255);
+top: 0;
+}
+
+body {
+background-color: rgb(191, 141, 75); 
+background-attachment: fixed;
+}
+
+.menu a {
+    float: right;
+    color: #393e46;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.menu a:hover {
+    background-color: antiquewhite;
+    color:rgb(191, 141, 75); 
+}
+
+.type2 {
+    width: 1440px;
+    height: 500px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    transform: translate(-50px);
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#text {
+    animation: example 4s infinite;
+    
+}
+    
+   @keyframes example {
+    form {
+        color: blueviolet;
+    }
+    to { 
+        color: pink;
+    }
+   }
+  
+
+
+
+
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-left: 400px;
+    position: relative;
+    font-size: 6vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #808080;
+    text-transform: uppercase;
+}
+
+h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(183, 102, 116);
+    -webkit-text-stroke: 0.3vw #383d52;
+    border-right: 2px solid #808080;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+    0%, 10%, 100% {
+        width: 0;
+    }
+
+    70%, 90% {
+        width: 57%;    
+    }
+}
+    
+
+
+

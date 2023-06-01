@@ -1,0 +1,14 @@
+body {
+    font-size: 15px;
+    text-align: center;
+    font: 1em sans-serif;
+    background-color: rgb(191, 141, 75); 
+}
+
+h1 {
+    background-color: aliceblue;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
